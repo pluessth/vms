@@ -23,8 +23,8 @@ import org.eclipse.scout.rt.shared.services.common.jdbc.SearchFilter;
 
 import ch.pproject.vms.client.core.team.TeamTablePage.Table;
 import ch.pproject.vms.shared.core.services.IMemberOutlineService;
-import ch.pproject.vms.shared.core.services.code.LicenceTypeCodeType;
 import ch.pproject.vms.shared.core.team.ITeamService;
+import ch.pproject.vms.shared.core.team.LicenceTypeCodeType;
 import ch.pproject.vms.shared.core.team.TeamTablePageData;
 
 @PageData(TeamTablePageData.class)

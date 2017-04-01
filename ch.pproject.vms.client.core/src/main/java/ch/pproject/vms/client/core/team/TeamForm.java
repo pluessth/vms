@@ -34,8 +34,8 @@ import ch.pproject.vms.client.core.team.TeamForm.MainBox.MembersBox;
 import ch.pproject.vms.client.core.team.TeamForm.MainBox.MembersBox.MembersTableField;
 import ch.pproject.vms.client.core.team.TeamForm.MainBox.OkButton;
 import ch.pproject.vms.shared.core.person.PersonLookupCall;
-import ch.pproject.vms.shared.core.services.code.LicenceTypeCodeType;
 import ch.pproject.vms.shared.core.team.ITeamService;
+import ch.pproject.vms.shared.core.team.LicenceTypeCodeType;
 import ch.pproject.vms.shared.core.team.TeamFormData;
 import ch.pproject.vms.shared.core.team.UpdateTeamPermission;
 

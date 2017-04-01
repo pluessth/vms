@@ -59,9 +59,9 @@ import ch.pproject.vms.client.core.person.PersonForm.MainBox.TabBox.RolesBox.Rol
 import ch.pproject.vms.shared.core.entityimport.annotation.ImportableEntity;
 import ch.pproject.vms.shared.core.person.IPersonService;
 import ch.pproject.vms.shared.core.person.PersonFormData;
+import ch.pproject.vms.shared.core.person.RoleCodeType;
+import ch.pproject.vms.shared.core.person.SexCodeType;
 import ch.pproject.vms.shared.core.person.UpdatePersonPermission;
-import ch.pproject.vms.shared.core.services.code.RoleCodeType;
-import ch.pproject.vms.shared.core.services.code.SexCodeType;
 
 @ClassId("56403a66-0945-449f-8d9e-95924321e7c6")
 @ImportableEntity(importServiceInterface = IPersonService.class)

@@ -1,4 +1,4 @@
-package ch.pproject.vms.shared.core.services.code;
+package ch.pproject.vms.shared.core.team;
 
 import org.eclipse.scout.rt.platform.Order;
 import org.eclipse.scout.rt.shared.TEXTS;

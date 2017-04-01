@@ -28,9 +28,9 @@ import ch.pproject.vms.client.core.person.RoleForm.MainBox.HeaderBox.RoleField;
 import ch.pproject.vms.client.core.person.RoleForm.MainBox.OkButton;
 import ch.pproject.vms.shared.core.person.IRoleService;
 import ch.pproject.vms.shared.core.person.PersonLookupCall;
+import ch.pproject.vms.shared.core.person.RoleCodeType;
 import ch.pproject.vms.shared.core.person.RoleFormData;
 import ch.pproject.vms.shared.core.person.UpdateRolePermission;
-import ch.pproject.vms.shared.core.services.code.RoleCodeType;
 
 @ClassId("2930a1d6-4d98-4cb7-a923-f59ce822b05e")
 @FormData(value = RoleFormData.class, sdkCommand = SdkCommand.CREATE)

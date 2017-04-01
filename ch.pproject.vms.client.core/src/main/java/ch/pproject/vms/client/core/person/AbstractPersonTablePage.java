@@ -26,7 +26,7 @@ import org.eclipse.scout.rt.shared.services.common.code.ICodeType;
 
 import ch.pproject.vms.client.core.entity.PersonEntity;
 import ch.pproject.vms.shared.core.person.AbstractPersonTablePageData;
-import ch.pproject.vms.shared.core.services.code.SexCodeType;
+import ch.pproject.vms.shared.core.person.SexCodeType;
 
 @PageData(AbstractPersonTablePageData.class)
 @ClassId("a6e19751-3367-4fd4-b1a1-8182e576fd39")

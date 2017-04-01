@@ -28,7 +28,7 @@ import ch.pproject.vms.client.core.person.PersonSearchForm.MainBox.TabBox.FieldB
 import ch.pproject.vms.client.core.person.PersonSearchForm.MainBox.TabBox.FieldBox.PhoneField;
 import ch.pproject.vms.client.core.person.PersonSearchForm.MainBox.TabBox.FieldBox.SexField;
 import ch.pproject.vms.shared.core.person.PersonSearchFormData;
-import ch.pproject.vms.shared.core.services.code.SexCodeType;
+import ch.pproject.vms.shared.core.person.SexCodeType;
 
 @ClassId("4e3e3779-e13d-44d2-ba9b-93d62eef3cd7")
 @FormData(value = PersonSearchFormData.class, sdkCommand = FormData.SdkCommand.CREATE)
