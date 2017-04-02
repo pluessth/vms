@@ -9,11 +9,11 @@ import ch.pproject.vms.shared.accounting.posting.PostingSearchFormData;
 @TunnelToServer
 public interface IAccountingOutlineService extends IService {
 
-  public AbstractTablePageData getPostingsTableData(PostingSearchFormData formData);
+  AbstractTablePageData getPostingsTableData(PostingSearchFormData formData);
 
-  public AbstractTablePageData getAccountsTableData(Long chartOfAccountsNr);
+  AbstractTablePageData getAccountsTableData(Long chartOfAccountsNr);
 
-  public AbstractTablePageData getAllAccountingYearTableData();
+  AbstractTablePageData getAllAccountingYearTableData();
 
-  public AbstractTablePageData getPostingsPerAccountTableData(Long accountNr);
+  AbstractTablePageData getPostingsPerAccountTableData(Long accountNr);
 }

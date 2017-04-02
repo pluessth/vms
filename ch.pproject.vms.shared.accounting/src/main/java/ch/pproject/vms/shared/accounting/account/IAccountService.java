@@ -14,5 +14,5 @@ public interface IAccountService extends IService {
 
   AccountFormData store(AccountFormData formData);
 
-  public void copyAccountsToAccountingYear(Long oldAccountingYearNr, Long newAccountingYearNr);
+  void copyAccountsToAccountingYear(Long oldAccountingYearNr, Long newAccountingYearNr);
 }

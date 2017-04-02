@@ -14,7 +14,7 @@ public interface IAccountingYearService extends IService {
 
   AccountingYearFormData store(AccountingYearFormData formData);
 
-  public Long getCurrentOrLatestAccountingYearNr();
+  Long getCurrentOrLatestAccountingYearNr();
 
   boolean isClosed(Long accountingYearNr);
 }
